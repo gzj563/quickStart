@@ -2,6 +2,10 @@
 在家练习
 家里常用的tomcat所在路径： D:\Program Files\apache-tomcat-7.0.57
 
+公司相关环境
+	tomcat： C:\Program Files\apache-tomcat-7.0.59
+	
+
 
 本工程是个web工程，所以配置运行起来特别简单
 1：tomcat
