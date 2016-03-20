@@ -11,10 +11,7 @@
     <title></title>
   </head>
   <body>
-<<<<<<< HEAD
+welcome page
 
-=======
-index jsp
->>>>>>> cf76e9b... 1th commit all project files
   </body>
 </html>
