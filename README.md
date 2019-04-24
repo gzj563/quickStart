@@ -6,16 +6,20 @@
 	tomcat： C:\Program Files\apache-tomcat-7.0.59
 	
 
+# 快速调试本项目
 
 本工程是个web工程，所以配置运行起来特别简单
-1：tomcat
-启动一个tomcat，只需要增加一个配置文件即可运行此项目
-${tomcat安装路径}\conf\Catalina\localhost 下增加本项目的配置文件。
+1：prepare one tomcat
+在tomcat 的安装路径 ${tomcat安装路径}\conf\Catalina\localhost 下增加一个本项目的配置文件
 file name:<项目名>.xml
 content of file:
 <Context path="quickStart" reloadable="true" docBase="D:\intellij_project\quickStart\web" workDir="D:\intellij_project\quickStart\web" />
-2：项目文件
 
+# 首次调试代码时确认事项
+1：确保 web-info/classes 目录下有本项目java代码生成的class。如果用IDE导入此项目，确保配置class输出路径为 web-info/classes
+
+
+# 相关零碎信息说明
 
 
 angularJs 相关文件
