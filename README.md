@@ -29,4 +29,4 @@ angularJs 相关文件
 
 .gitignore
     配置要忽略的文件及文件夹。比如
-    web/org 下的文件是一些jsp编译后的文件，不需要上传到 repository中
+    web/org 下的文件是一些jsp编译后的文件，不需要上传到 repository中去
